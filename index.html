@@ -1,11 +1,193 @@
 <!DOCTYPE html>
 <html lang="en">            
     <head>
+        <link rel="stylesheet" href="css/style.css">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
     </head>
     <body>
-<h1>Hello World</h1>
+<div>
+       <h1 class="center  blue">john doe portfolio</h1>
+       <h2 class="center  blue">professional web developer</h2>
+</div>
+<div>
+    <h1 class="  blue">About Me</h1>
+</div>
+<div class="about-me">
+    <div class="profile-container">
+    <img class="profile" src="img/WhatsApp Image 2026-09-15 at 12.27.35 AM.jpeg"/>
+    </div>
+    <div class="icons">
+    <a>
+        <img class="social-icon" src="img/facebook.jpeg"> 
+    </a>
+    <a>
+       <img class="social-icon" src="img/linkedin.jpeg">
+    </a>
+    <a>
+        <img class="social-icon" src="img/instgram.jpeg">  
+    </a>
+    <a>
+        <img class="social-icon" src="img/github.jpeg">
+    </a>
+    </div>
+    </div>
+</div>
+<div class="skills">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos ipsa blanditiis unde porro veniam explicabo eligendi quod aut libero, suscipit possimus consequuntur officiis ullam necessitatibus laborum qui vitae rerum repellat..</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde accusamus molestiae officia est atque in nesciunt laudantium veritatis quisquam vero?</p>
+    <h1 class="bg-lightblue">Skills</h1>
+    <ul>
+        <li><a class="blue" href="#">HTML5</a></li>
+        <li><a class="blue" href="#">CSS3</a></li>
+        <li><a class="blue" href="#">JavaScript</a></li>
+        <li><a class="blue" href="#">Reactjs</a></li>
+        <li><a class="blue" href="#">Angular</a></li> 
+    </ul>
+</div>
+<div class="experience">
+<h1 class="blue  ">Experience Timeline</h1>
+</div>
+<div class="table">
+    <h3 class="center">Professional Experience overview</h3>
+    <table>
+        <tr>
+            
+            <th class="bg-blue">Company</th>
+            <th class="bg-blue">logo</th>
+            <th class="bg-blue">role</th>
+            <th class="bg-blue">key achievements</th>
+            <th class="bg-blue">dates</th>
+        </tr>
+        <tr>
+            <td rowspan="2">teach crop solutions</td>
+            <td rowspan="2"> <img src="img/logo1.jpeg" width="100"/> </td>
+            <td>senior full-stack developer</td>
+            <td><ul>
+                <li>Led development of responsive web applications</li>
+                <li>Mentored junior developers</li>
+                <li>Architected scalable solutions</li>
+            </ul></td>
+            <td>jan 2023-present</td>
+        </tr>
+        <tr>
+            <td>full-stack developer</td>
+            <td><ul>
+                <li>Developed responsive web applications</li>
+                <li>Collaborated with design teams</li>
+                <li>Optimized application performance</li>
+            </ul></td>
+            <td>2021-2023</td>
+        </tr>
+        <tr>
+            <td>Digital agency pro</td>
+            <td><img src="img/logo2.jpeg" width="100"/> </td>
+            <td>Frontend Developer</td>
+            <td><ul>
+                <li>Built user interfaces from design mockups</li>
+                <li>Implemented responsive designs</li>
+                <li>conducted code reviews</li>
+            </ul></td>
+            <td>2019-2020</td>
+        </tr>
+        <tr>
+            <td>Web design studio</td>
+            <td><img src="img/logo3.jpeg" width="100"/> </td>
+            <td>Junior web developer</td>
+            <td><ul>
+                <li>Maintained existing websites</li>
+                <li>Fixed bugs and implemented features</li>
+                <li>Learned bestpractices</li>
+            </ul></td>
+            <td>2019-2020</td>
+        </tr>
+        <tr><td colspan="5">Total Experience: +5 years in web development </td></tr>
+        </table>
+</div>
+<div>
+    <h1 class="blue">Contact Me</h1>
+</div>
+<div> 
+    <p>feel free to reach out to me using the form below. 'd love to hear from you!</p>
+</div>
+<div class="contact-form">
+    <fieldset>
+        <legend>Personal Information</legend>
+    <form class="form-1">
+        <div class="ds wd-48">
+        <label for="name">First Name:*</label>
+        <input   type="text" id="name" name="name" required><br>
+        </div>
+        <div class="ds wd-48">
+        <label for="name">Last Name:*</label>
+        <input  type="text" id="name" name="name" required><br>
+        </div>
+        <div class="ds wd-48">
+        <label for="email">Email Address:*</label>
+        <input  type="email" id="email" name="email" required><br>
+        </div>
+        <div class="ds wd-48">
+        <label for="phone">Phone Number:*</label>
+        <input  type="tel" id="phone" name="phone" required><br>
+        </div>
+        <div class="ds wd-100">
+        <label for="date">Preferred Meeting Date:*</label>
+        <input type="date" id="date" name="date" required><br>
+        </div>
+        <div class="ds wd-100">
+        <label for="message">Best Time to Contact:*</label>
+        <input type="time" id="message" name="message" required><br>
+        </div>
+    </form>
+    </fieldset>
+    <div class=form-2>
+        <fieldset>
+            <legend>Project Details</legend>
+            <form>
+                <div class="ds wd-48">
+                <label for="text">Project Type:*</label><br>
+                <input type="text" value="text" name="text" required>
+                </div>
+                <div class="ds wd-48">
+                <label for="text">Project Description:*</label>
+                <input type="text" value="text" name="text" required><br>
+                </div>
+                <div class="ds wd-100 mg-t-10">
+                    <label for="text">Budget Range:*</label><br>
+                <input type="checkbox" id="text" name="text" required>under $5,000<br>
+                <input type="checkbox" id="text" name="text" required>$5,000-$10,000<br>
+                <input type="checkbox" id="text" name="text" required>$10,000-$25,000<br>
+                <input type="checkbox" id="text" name="text" required>over $25,000<br>
+                
+                </div>
+                <div class="ds wd-100 mg-t-10 mg-l-450">
+                    <label for="text">Services required(chek all the apply):*</label><br>
+                <input type="checkbox" id="text" name="text" required>UI/UX Design<br>
+                <input type="checkbox" id="text" name="text" required>Frontend Development<br>
+                <input type="checkbox" id="text" name="text" required>Backend Development<br>
+                <input type="checkbox" id="text" name="text" required>Hosting & Deployment<br>
+                <input type="checkbox" id="text" name="text" required>Maintenance & Support<br>
+                </div>
+                <div>
+                    <label for="source">How did you hear about me?</label><br>
+                    <select placeholder="Select source" id="source" name="source">
+                        <option value="google">Google</option>
+                        <option value="linkedin">LinkedIn</option>
+                        <option value="facebook">Facebook</option>
+                        <option value="twitter">Twitter</option>
+                        <option value="friend">Friend/Colleague</option>
+                        <option value="other">Other</option>
+                        </select>
+                </div>
+                
+            </form>
+        </fieldset>
+        <div>
+        <button class="btn-1 mg-t-10">Send Message</button>
+        <button class="btn-2 mg-t-10">Clear Form</button>
+        </div>
+
+
     </body>
 </html>
