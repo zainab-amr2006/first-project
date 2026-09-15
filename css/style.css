@@ -1,0 +1,65 @@
+.center{
+    text-align: center;
+}
+.ds{
+    display: inline-block;
+    
+}
+.wd-48{
+    width: 48%;
+}
+.mg-t-10{
+    margin-top: 10px;
+}
+.mg-l-450{
+    margin-left: 450px;
+}
+.blue{
+    color: rgb(41, 150, 187);
+}
+.about-me{
+    width:25%;
+    float: left;
+}
+.skills{
+    width: 75%;
+    float: right;
+}
+.profile{
+    width: 50%;
+    margin-left: 100px;
+}
+.social-icon{
+    width:20%;
+}
+.icons{
+    margin-left: 100px;
+}
+.experience{
+    clear: both;
+    padding-top: 30px;
+}
+.bg-lightblue{
+    background-color: lightblue;
+}
+.bg-blue{
+    background-color: rgb(41, 150, 187);
+}
+table, th, td {
+    border: 3px solid black;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.form-1{
+    
+    padding: 20px;
+}
+.btn-1{
+    background-color: rgb(41, 150, 187);
+    
+}
+.btn-2{
+    background-color: tomato;
+}
